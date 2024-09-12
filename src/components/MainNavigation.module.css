@@ -1,0 +1,56 @@
+body
+{
+    margin:5px;
+}
+.header
+{
+    margin:5px;
+    display: flex;
+    justify-content: space-between;
+    height:100px;
+    width:100%;
+    background-color: #F4EBD9;
+    border-radius: 5px;
+}
+.headerImage
+{
+    height:90px;
+    width:90px;
+}
+.logo
+{
+    height:100px;
+    display:flex;
+    justify-content: center;
+    align-items: center;
+}
+/* .logoTitle
+{
+    font-size:x-small;
+} */
+.link
+{
+    text-decoration: none;
+}
+.links
+{
+    display:flex;
+    justify-content: center;
+    align-items: center;
+}
+.links button a,.links button
+{
+    font-size: medium;
+    text-decoration: none;
+    height:40px;
+    width:100px;
+    border:none;
+    background-color: #77685d;
+    color:white;
+    border-radius:5px;
+}
+.links button:hover
+{
+    scale:1.03;
+    /* text-decoration: underline; */
+}

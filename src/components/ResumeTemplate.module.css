@@ -1,0 +1,29 @@
+
+.container
+{
+    width:80%;
+    margin:50px auto;
+    padding:10px;
+    /* border:2px solid black; */
+}
+.header h1
+{
+    text-align:center;
+}
+.header .info
+{
+    text-align: center;
+}
+.header .phone,.mail,.linkedin,.portfolio,.github
+{
+    display:inline-block;
+}
+.header img
+{
+    height:18px;
+    width:18px;
+}
+.header div
+{
+    margin-right:20px;
+}
